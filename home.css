@@ -1,0 +1,29 @@
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.para1 {
+    max-width: 50%;
+}
+
+.para1 h1 {
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.para1 span {
+    color: #3FA66B;
+}
+
+.para1 p {
+    font-size: 18px;
+    margin: 15px 0 30px;
+}
+
+.para1 video {
+    width: 100%;
+    border-radius: 100%;
+}
