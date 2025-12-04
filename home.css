@@ -22,8 +22,7 @@
     font-size: 18px;
     margin: 15px 0 30px;
 }
-
 .para1 video {
     width: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
 }

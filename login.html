@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhu-Veda_Home</title>
+    <title>login-page</title>
     <link rel="stylesheet" href="./basicstyle.css">
-    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./login.css">
 </head>
 <body>
     <header class="navbar">
@@ -19,20 +19,26 @@
             <a href="./map.html" target="_self">Maps</a>
             <a href="./about.html" target="_self">About</a>
             <a href="./login.html" target="_self"> <button class="sign_in">Sign In</button></a>
-
         </nav>
     </header>
-    <main class="main">
-        <section class="first">
-        <div class="para1">
-            <h1>Explore the Earth, the <span>BhuVeda</span> Way</h1>
-            <p>Interactive lessons, maps, quizzes, and real-time Earth knowledge — all in one place.</p>
-            <button class="sign_in Learning">Start Learning</button>
+    <main>
+        <div class="login">
+            <div class="f1">
+            <h1 class="title">BhuVeda</h1>
+        <h2>Welcome Back</h2>
+        <p class="subtitle">Log in to continue learning geography</p>
+
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="login-btn">Login</button>
+        </form>
         </div>
-        <div class="para1">
-            <video src="./earth.mp4" type="mp4" autoplay muted loop></video>
         </div>
-    </section>
     </main>
     <footer class="footer">
         <p>© 2025 BhuVeda - Geography for Everyone.</p>
