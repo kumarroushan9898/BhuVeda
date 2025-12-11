@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Famous Rivers of the World & India</title>
   <link rel="stylesheet" href="./basicstyle.css">
+  
   <style>
-    * {
-      box-sizing: border-box;
-    }
+
+    
     body {
       font-family: Arial, sans-serif;
       margin: 10px;
@@ -24,6 +24,9 @@
       margin-bottom: 20px;
       border-radius: 8px;
       background: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
     img {
       width:300px;
@@ -31,10 +34,8 @@
       border-radius: 6px;
       margin-top: 10px;
     }
-    div{
-        display: inline-block;
-        width: 100%;
-    }
+
+    
     @media (min-width: 700px) {
       body {
         width: 80%;
@@ -47,6 +48,21 @@
   </style>
 </head>
 <body>
+  <header class="navbar">
+        <div class="logo">
+            <img id="logo" src="./image.png"/><span></span>
+            BhuVeda</div>
+        <nav>
+            <a href="./home.html" target="_self">Home</a>
+            <a href="./explore.html">Explore</a>
+            <a href="/courses.html" target="_self">Courses</a>
+            <a href="./map.html" target="_self">Maps</a>
+            <a href="./about.html" target="_self">About</a>
+            <a href="./login.html" target="_self"> <button class="sign_in">Sign In</button></a>
+
+        </nav>
+    </header>
+
   <h1>Famous Rivers of the World</h1>
 
   <div class="river"><div class="river-content">
