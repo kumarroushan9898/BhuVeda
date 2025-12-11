@@ -9,6 +9,9 @@ body {
             margin-bottom: 20px;
         }
         .mountain {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             background: #fff;
             padding: 15px;
             margin-bottom: 20px;
@@ -16,8 +19,8 @@ body {
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .mountain img {
-            width: 100%;
-            max-height: 250px;
+            width: 80%;
+            height: auto;
             object-fit: cover;
             border-radius: 6px;
         }
