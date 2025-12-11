@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Oceans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #e0f7fa;
+            color: #004d40;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #00796b;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .ocean-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            transition: transform 0.2s;
+            text-align: center;
+        }
+
+        .ocean-card:hover {
+            transform: scale(1.05);
+        }
+
+        .ocean-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .ocean-card h2 {
+            color: #00796b;
+            margin-top: 0;
+        }
+
+        .ocean-card p {
+            margin: 5px 0;
+            line-height: 1.4;
+            text-align: left;
+        }
+
+        @media(max-width: 650px){
+            .ocean-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>World Oceans</h1>
+        <p>Details and Interesting Facts</p>
+    </header>
+
+    <div class="container">
+        <div class="ocean-card">
+            <img src="https://ej9px6kfdm3.exactdn.com/wp-content/uploads/2020/11/Pacific-Ocean-Ocean-and-Beyond.jpg?strip=all&lossy=1&quality=75&resize=1200%2C675&ssl=1" alt="Pacific Ocean">
+            <h2>Pacific Ocean</h2>
+            <p><strong>Area:</strong> 168,723,000 km²</p>
+            <p><strong>Average Depth:</strong> 4,280 m</p>
+            <p><strong>Deepest Point:</strong> Mariana Trench (~10,994 m)</p>
+            <p><strong>Facts:</strong> Largest ocean, contains the Ring of Fire, has many islands including Polynesia and Micronesia.</p>
+            <p>for more <a href="https://en.wikipedia.org/wiki/Pacific_Ocean">click me</a></p>
+        </div>
+
+        <div class="ocean-card">
+            <img src="https://cdn.britannica.com/44/36044-050-000E8718/coast-Labrador-Can-Sea-embayment-Atlantic-Ocean-Labrador-Sea.jpg" alt="Atlantic Ocean">
+            <h2>Atlantic Ocean</h2>
+            <p><strong>Area:</strong> 85,133,000 km²</p>
+            <p><strong>Average Depth:</strong> 3,646 m</p>
+            <p><strong>Deepest Point:</strong> Puerto Rico Trench (~8,376 m)</p>
+            <p><strong>Facts:</strong> Second-largest ocean, home to the Sargasso Sea, Gulf Stream affects Europe's climate.</p>
+            <p>for more <a href="https://en.wikipedia.org/wiki/Atlantic_Ocean">click me</a></p>
+        </div>
+
+        <div class="ocean-card">
+            <img src="https://cdn.sanity.io/images/we0tdimr/production/797de1305ff63dc43eb98f5eacb36a6931edf58c-3840x2403.jpg?w=1920&h=1080&fm=jpg&q=65" alt="Indian Ocean">
+            <h2>Indian Ocean</h2>
+            <p><strong>Area:</strong> 70,560,000 km²</p>
+            <p><strong>Average Depth:</strong> 3,741 m</p>
+            <p><strong>Deepest Point:</strong> Java Trench (~7,258 m)</p>
+            <p><strong>Facts:</strong> Warmest ocean, important for monsoon winds and historic trade, rich in biodiversity.</p>
+            <p>for more <a href="https://en.wikipedia.org/wiki/Indian_Ocean">click me</a></p>
+        </div>
+
+        <div class="ocean-card">
+            <img src="https://www.kids-world-travel-guide.com/images/iceberg_shutterstock_185516678.jpg" alt="Southern Ocean">
+            <h2>Southern Ocean</h2>
+            <p><strong>Area:</strong> 21,960,000 km²</p>
+            <p><strong>Average Depth:</strong> 3,270 m</p>
+            <p><strong>Deepest Point:</strong> South Sandwich Trench (~7,235 m)</p>
+            <p><strong>Facts:</strong> Encircles Antarctica, strong currents like Antarctic Circumpolar Current, rich feeding grounds for marine life.</p>
+            <p>for more <a href="https://en.wikipedia.org/wiki/Southern_Ocean">click me</a></p>
+        </div>
+
+        <div class="ocean-card">
+            <img src="https://www.highnorthnews.com/sites/default/files/styles/facebook/public/2022-10/Iceberg_in_the_Arctic_with_its_underside_exposed%2C_brightened_underwater.jpeg?h=8e4f9392&itok=aWWXwItt" alt="Arctic Ocean">
+            <h2>Arctic Ocean</h2>
+            <p><strong>Area:</strong> 15,558,000 km²</p>
+            <p><strong>Average Depth:</strong> 1,205 m</p>
+            <p><strong>Deepest Point:</strong> Eurasian Basin (~5,450 m)</p>
+            <p><strong>Facts:</strong> Smallest ocean, mostly covered by sea ice, unique ecosystems with polar bears, walruses, and seals.</p>
+            <p>for more <a href="https://en.wikipedia.org/wiki/Arctic_Ocean">click me</a></p>
+            
+        </div>
+    </div>
+</body>
+</html>
+
