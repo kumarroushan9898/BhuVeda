@@ -27,23 +27,19 @@
             border-radius: 8px;
             margin-top: 10px;
         }
-
-        
-        @media (max-width: 600px) {
-            body {
-                margin: 5px;
-            }
-            h1 {
-                font-size: 1.4rem;
-                text-align: center;
-            }
-            h2 {
-                font-size: 1.2rem;
-            }
-            .box {
-                padding: 12px;
-            }
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+
+        main div{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
     </style>
 </head>
 <body>
@@ -61,7 +57,7 @@
 
         </nav>
     </header>
-
+   <main>
     <h1>Earth Science</h1>
 
     
@@ -177,7 +173,10 @@
             <li>Examples: Hawaii, Yellowstone</li>
         </ul>
     </div>
-
+    </main>
+    <footer class="footer">
+        <p>© 2025 BhuVeda - Geography for Everyone.</p>
+    </footer>
 </body>
 </html>
 
